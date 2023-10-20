@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4a4949;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    padding:2%;
+}
+.product {
+    display: flex;
+    margin: 20px;
+    background-color: rgb(233, 238, 244);
+}
+
+.product-images {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-images img {
+    max-width: 60%;
+    padding-top: 0.5%;
+    
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+}
+
+button.add-to-cart-button{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
